@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Hamburger Menu</title>
+    <link rel="stylesheet" href="./style.css">
+    <style></style>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="./garudan-logo.jpg" alt="Logo">
+        </div>
+        <button class="login-button">Login</button>
+    </div>
+    
+    <div class="main-content">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">☰</div>
+            <ul class="menu-items" id="menu">
+                <li><a href="#">Batch 1</a></li>
+                <li><a href="#">Batch 2</a></li>
+                <li><a href="#">Batch 3</a></li>
+                <li><a href="#">Batch 4</a></li>
+            </ul>
+        </div>
+        
+        <div class="content-box">
+            <div class="box">Show Location</div>
+            <div class="box">Analytics</div>
+        </div>
+
+        <div class="side-boxes">
+            <div class="side-box">Top</div>
+            <div class="side-box">Mid</div>
+            <div class="side-box">Bottom</div>
+        </div>
+    </div>
+
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
